@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(programming-background-with-person-working-with-codes-computer_23-2150010125.avif);;
+    margin-top: -25px;
+
+}
+
+header {
+    background-image: url(software-developer-6521720_1280.jpg);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    
+    
+}
+
+nav ul li a:hover {
+    background: #0073e6;
+    border-radius: 5px;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: rgb(242, 237, 237);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    border-radius: 20px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000000;
+    color: white;
+
+    
+}
+.image-container {
+    margin: 50px auto;
+    max-width: 300px; /* Rasmning maksimal kengligi */
+    position: relative;
+}
+
+.animated-image {
+    width: 5%;
+    height: auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Animatsiya effektlari */
+    background-color: rgb(255, 248, 248);
+    display: inline-block;
+    margin: 3px; /* Rasmlar orasidagi bo‘shliq */
+    margin-top: -30px;
+    
+}
+
+/* Hover effekt */
+.animated-image:hover {
+    transform: scale(1.2) rotate(10deg); /* Rasm kattalashadi va aylanadi */
+    opacity: 0.8; /* Rasm biroz shaffoflashadi */
+}
+
+/* media start */
+/* col-xl */ @media(min-width: 1200px){}
+/* col-lg */ @media(min-width: 992px) and (max-width:1199px){}
+/* col-md */ @media(min-width: 768px) and (max-width:991px){}
+/* col-sm */ @media(min-width: 576px) and (max-width:767px){}
+/* col */ @media(max-width: 575px){}
+/* media end */
